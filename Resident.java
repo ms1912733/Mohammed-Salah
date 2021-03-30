@@ -13,4 +13,37 @@ public class Resident extends Customer {
 		this.bDate = bDate;
 	}
 
+	public int getResidence() {
+		return residence;
+	}
+
+	public void setResidence(int residence) {
+		this.residence = residence;
+	}
+
+	public String getPassportNo() {
+		return passportNo;
+	}
+
+	public void setPassportNo(String passportNo) {
+		this.passportNo = passportNo;
+	}
+
+	public String getNationality() {
+		return nationality;
+	}
+
+	public void setNationality(String nationality) {
+		this.nationality = nationality;
+	}
+
+	public Date getbDate() {
+		return bDate;
+	}
+
+	public void setbDate(Date bDate) {
+		this.bDate = bDate;
+	}
+
+	
 }
