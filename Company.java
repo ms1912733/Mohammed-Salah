@@ -1,3 +1,4 @@
+
 public class Company extends Customer {
 	private String licenseNo;
 	private String location;
@@ -9,5 +10,30 @@ public class Company extends Customer {
 		this.location = location;
 		this.expiryDate = expiryDate;
 	}
+
+	public String getLicenseNo() {
+		return licenseNo;
+	}
+
+	public void setLicenseNo(String licenseNo) {
+		this.licenseNo = licenseNo;
+	}
+
+	public String getLocation() {
+		return location;
+	}
+
+	public void setLocation(String location) {
+		this.location = location;
+	}
+
+	public Date getExpiryDate() {
+		return expiryDate;
+	}
+
+	public void setExpiryDate(Date expiryDate) {
+		this.expiryDate = expiryDate;
+	}
+	
 	
 }
